@@ -1,2 +1,14 @@
-package com.example.moviecatalog.resources;public class CatalogItem {
+package com.example.moviecatalog.resources;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CatalogItem {
+    private String name;
+    private String desc;
+    private int rating;
 }
