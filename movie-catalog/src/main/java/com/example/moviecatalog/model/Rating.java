@@ -1,4 +1,4 @@
-package com.example.ratingdata.model;
+package com.example.moviecatalog.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
